@@ -3,7 +3,7 @@ Super simple MiSTer scripts for converting back and forth between MiSTer and FXP
 This script is intended to be run directly on MiSTer after copying to the Scripts folder of your SD card.
 They will probably throw errors running on other Linux or Unix machines if you run them without modification.
 
-mister2fxpak.sh will copy your MiSTer saves to a save folder expected by sd2snes or fxpak Pro.
+mister2fxpak.sh will copy your MiSTer saves to a save folder expected by sd2snes or FXPAK Pro.
 fxpak2mister.sh will do the reverse. Simple enough!
 
 Both scripts will create a backup folder in the destination platform's save folder and, if there's already an existing save,
