@@ -12,5 +12,6 @@ it will copy that existing save to the backup folder before writing the new one.
 Hopefully this will help you avoid accidentally overwriting your save files if you run the wrong script.
 Just make sure you don't run either of the scripts twice in a row!
 
-Please note I cannot take any responsibility if you still manage to accidentally overwrite save files with these tools.
+Please note: I cannot take any responsibility if you still manage to accidentally overwrite save files with these tools!
+
 I strongly recommend you back up your save files to your PC or elsewhere before messing around with them.
