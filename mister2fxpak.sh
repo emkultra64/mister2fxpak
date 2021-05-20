@@ -6,13 +6,20 @@ fxpak_saves="/media/fat/sd2snes/saves/"
 source=$mister_saves
 destination=$fxpak_saves
 
+cd $source
+if [ ! -e *.srm ]
+then
+	echo "ERROR: No save files found in $source"
+	echo "Did you mean to run the other script?"
+	exit
+fi
+
 # Make backup folder for sd2snes saves to protect from easy overwrites.
 if [ ! -e "$destination/backup" ]
 then
 	mkdir -p "$destination/backup"
 fi
 
-cd $source
 for i in *.sav
 do
 	oldname="$i"
