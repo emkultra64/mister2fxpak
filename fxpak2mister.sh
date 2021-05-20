@@ -1,5 +1,5 @@
 #!/bin/bash
-#FXPAK PRO TO MISTER COPY SCRIPT
+#FXPAK PRO TO MISTER SAVE CONVERSION SCRIPT
 mister_saves="/media/fat/saves/SNES/"
 fxpak_saves="/media/fat/sd2snes/saves/"
 
