@@ -7,7 +7,7 @@ source=$mister_saves
 destination=$fxpak_saves
 
 cd $source
-if [ ! -e *.srm ]
+if [ ! -e *.sav ]
 then
 	echo "ERROR: No save files found in $source"
 	echo "Did you mean to run the other script?"
